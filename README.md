@@ -16,21 +16,32 @@ Team Members:
 2. shivam
 
 
-Project Structure
-CryptoLabX/
-├── classical/
-├── attacks/
-├── math/
-├── modern/
-├── analysis/
-├── datasets/
-├── outputs/
-├── docs/
-├── tests/
-├── utils/
-├── main.py
-├── README.md
-└── requirements.txt
+Bandit lab experiment lab -2
+----------------------
+
+Overview:
+- Objective: Run Bandit (Python security scanner) on the repository to identify common security issues in Python code.
+- Tool: Bandit (PyCQA) — a static analyzer for Python security issues.
+
+How to reproduce:
+1. Install Bandit:
+	pip install bandit
+2. Run Bandit recursively and save a text report:
+	bandit -r . -lll -f txt -o secure_applications/outputs/sast_lab_log.txt
+
+Findings:
+- Full scan output and details are saved in secure_applications/outputs/sast_lab_log.txt.
+- Typical findings to review: weak cryptographic usage, insecure use of subprocess/OS functions, hard-coded secrets, and insecure file handling.
+
+Remediation (next steps):
+- Review the items in secure_applications/outputs/sast_lab_log.txt and triage by severity.
+- Apply fixes such as using secure library APIs, avoiding hard-coded secrets, validating inputs, and following secure coding patterns.
+- Re-run Bandit after fixes to confirm issues are resolved.
+
+
+
+
+
 
 
 
