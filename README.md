@@ -38,6 +38,44 @@ Remediation (next steps):
 - Apply fixes such as using secure library APIs, avoiding hard-coded secrets, validating inputs, and following secure coding patterns.
 - Re-run Bandit after fixes to confirm issues are resolved.
 
+Password Manager - Lab Assignment 3
+----------------------
+
+Overview:
+- Objective: Develop and analyze a secure password manager application using Python and identify security vulnerabilities using Bandit.
+- Tool: Bandit (PyCQA) — a static analyzer for Python security issues.
+- Group: 9
+
+How to reproduce:
+1. Navigate to the secure_applications directory:
+	cd secure_applications
+2. Activate virtual environment:
+	source .venv/bin/activate
+3. Run the password manager:
+	python src/password_manager.py
+4. Run Bandit scan on the source code:
+	bandit -r src
+
+Features:
+- Login functionality
+- Add credentials
+- View credentials
+- Search credentials
+- Delete credentials
+
+Findings:
+- Hardcoded Credentials — Username and password are stored directly in source code.
+- Missing Authentication — Sensitive operations do not properly verify authentication.
+- Information Leakage — Passwords are exposed through error/debug messages.
+- Full scan results are saved in secure_applications/sast/ folder.
+
+Remediation (next steps):
+- Review vulnerabilities identified by Bandit in secure_applications/sast/bandit_report.json and bandit_report.txt.
+- Implement secure credential storage using encryption.
+- Add proper authentication and authorization checks.
+- Remove hardcoded secrets and use environment variables instead.
+- Implement secure error handling to prevent information leakage.
+- Re-run Bandit after fixes to confirm issues are resolved.
 
 
 
