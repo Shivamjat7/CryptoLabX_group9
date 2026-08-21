@@ -187,13 +187,4 @@ CryptoLabX/
 
 ---
 
-## 10. Git Commit History
 
-```text
-Commit 1: Implemented Shift Cipher
-Commit 2: Added brute-force and dictionary scoring
-Commit 3: Added Chi-Square cryptanalysis
-Commit 4: Added unified Shift Cipher attack runner
-Commit 5: Added Shift Cipher experiment test cases
-Commit 6: Added Shift Cipher experiment results
-```
