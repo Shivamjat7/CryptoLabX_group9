@@ -1,8 +1,12 @@
 from pathlib import Path
 
 from shift_cipher import encrypt
-from brute_force_dictionary import crack_shift_cipher as dictionary_attack
-from chi_square_attack import crack_shift_cipher as chi_square_attack
+from brute_force_dictionary import (
+    crack_shift_cipher as dictionary_attack
+)
+from chi_square_attack import (
+    crack_shift_cipher as chi_square_attack
+)
 
 
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -11,27 +15,71 @@ DICTIONARY_PATH = (
     BASE_DIR / "dictionary" / "english_words.txt"
 )
 
+TESTCASE_PATH = (
+    BASE_DIR / "testcases" / "testcases.txt"
+)
+
+
+def load_test_cases():
+    """
+    Load test cases from testcases.txt.
+    """
+
+    test_cases = []
+
+    with open(TESTCASE_PATH, "r", encoding="utf-8") as file:
+
+        for line in file:
+
+            line = line.strip()
+
+            if not line or line.startswith("#"):
+                continue
+
+            parts = line.split("|", 2)
+
+            if len(parts) != 3:
+                continue
+
+            test_number = int(parts[0])
+            actual_key = int(parts[1])
+            plaintext = parts[2]
+
+            test_cases.append(
+                (
+                    test_number,
+                    actual_key,
+                    plaintext
+                )
+            )
+
+    return test_cases
+
 
 def run_test_case(
-    test_case: int,
-    plaintext: str,
-    actual_key: int
+    test_case,
+    plaintext,
+    actual_key
 ):
     """
-    Encrypt plaintext and run both cryptanalysis attacks.
+    Encrypt plaintext and run both attacks.
     """
 
-    ciphertext = encrypt(plaintext, actual_key)
+    ciphertext = encrypt(
+        plaintext,
+        actual_key
+    )
 
-    print("\n" + "=" * 70)
+    print("\n" + "=" * 80)
     print(f"TEST CASE {test_case}")
-    print("=" * 70)
+    print("=" * 80)
 
     print(f"Actual Key : {actual_key}")
     print(f"Plaintext  : {plaintext}")
     print(f"Ciphertext : {ciphertext}")
 
-    # Dictionary attack
+    print("\nRunning Dictionary Attack...")
+
     dictionary_key, dictionary_plaintext, dictionary_score = (
         dictionary_attack(
             ciphertext,
@@ -39,76 +87,68 @@ def run_test_case(
         )
     )
 
-    # Chi-Square attack
+    print("\nRunning Chi-Square Attack...")
+
     chi_key, chi_plaintext, chi_score = (
         chi_square_attack(ciphertext)
     )
 
-    print("\n" + "-" * 70)
-    print("FINAL COMPARISON")
-    print("-" * 70)
+    dictionary_correct = (
+        dictionary_key == actual_key
+    )
 
-    print(f"Actual Key       : {actual_key}")
+    chi_square_correct = (
+        chi_key == actual_key
+    )
+
+    print("\n" + "-" * 80)
+    print("FINAL RESULT")
+    print("-" * 80)
+
+    print(f"Actual Key          : {actual_key}")
+    print(f"Dictionary Key      : {dictionary_key}")
+    print(f"Dictionary Plaintext: {dictionary_plaintext}")
+    print(f"Dictionary Score    : {dictionary_score}")
+
+    print(f"\nChi-Square Key      : {chi_key}")
+    print(f"Chi-Square Plaintext: {chi_plaintext}")
+    print(f"Chi-Square Score    : {chi_score:.2f}")
 
     print(
-        f"Dictionary Key   : {dictionary_key} "
-        f"({'Correct' if dictionary_key == actual_key else 'Wrong'})"
+        f"\nDictionary Correct  : "
+        f"{'YES' if dictionary_correct else 'NO'}"
     )
 
     print(
-        f"Chi-Square Key   : {chi_key} "
-        f"({'Correct' if chi_key == actual_key else 'Wrong'})"
+        f"Chi-Square Correct  : "
+        f"{'YES' if chi_square_correct else 'NO'}"
     )
-
-    print(f"Dictionary Score  : {dictionary_score}")
-    print(f"Chi-Square Score  : {chi_score:.2f}")
 
     return {
         "test_case": test_case,
         "actual_key": actual_key,
         "dictionary_key": dictionary_key,
         "chi_square_key": chi_key,
-        "dictionary_correct": dictionary_key == actual_key,
-        "chi_square_correct": chi_key == actual_key,
+        "dictionary_correct": dictionary_correct,
+        "chi_square_correct": chi_square_correct
     }
 
 
 def main():
 
-    test_cases = [
-        (
-            1,
-            "HELLO WORLD",
-            3
-        ),
-        (
-            2,
-            "THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG",
-            7
-        ),
-        (
-            3,
-            "THIS IS A SHIFT CIPHER TEST",
-            13
-        ),
-        (
-            4,
-            "CRYPTOGRAPHY IS IMPORTANT FOR COMPUTER SECURITY",
-            19
-        ),
-        (
-            5,
-            "THE STUDENT IS LEARNING COMPUTER SCIENCE",
-            5
-        ),
-    ]
+    test_cases = load_test_cases()
 
     results = []
 
-    for test_case, plaintext, key in test_cases:
+    print("=" * 80)
+    print("SHIFT CIPHER CRYPTANALYSIS")
+    print("Brute Force + Dictionary Scoring + Chi-Square")
+    print("=" * 80)
+
+    for test_number, key, plaintext in test_cases:
 
         result = run_test_case(
-            test_case,
+            test_number,
             plaintext,
             key
         )
@@ -116,9 +156,9 @@ def main():
         results.append(result)
 
     print("\n\n")
-    print("=" * 90)
+    print("=" * 95)
     print("OVERALL RESULTS")
-    print("=" * 90)
+    print("=" * 95)
 
     print(
         f"{'Test':<8}"
@@ -129,7 +169,7 @@ def main():
         f"{'Chi Correct':<15}"
     )
 
-    print("-" * 90)
+    print("-" * 95)
 
     for result in results:
 
@@ -138,8 +178,8 @@ def main():
             f"{result['actual_key']:<10}"
             f"{result['dictionary_key']:<15}"
             f"{result['chi_square_key']:<15}"
-            f"{str(result['dictionary_correct']):<15}"
-            f"{str(result['chi_square_correct']):<15}"
+            f"{'YES' if result['dictionary_correct'] else 'NO':<15}"
+            f"{'YES' if result['chi_square_correct'] else 'NO':<15}"
         )
 
 
