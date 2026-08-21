@@ -1,0 +1,353 @@
+
+======================================================================
+TEST CASE 1
+======================================================================
+Actual Key : 3
+Plaintext  : HELLO WORLD
+Ciphertext : KHOOR ZRUOG
+Key:  0 | Score:  0 | Plaintext: KHOOR ZRUOG
+Key:  1 | Score:  0 | Plaintext: JGNNQ YQTNF
+Key:  2 | Score:  0 | Plaintext: IFMMP XPSME
+Key:  3 | Score:  2 | Plaintext: HELLO WORLD
+Key:  4 | Score:  0 | Plaintext: GDKKN VNQKC
+Key:  5 | Score:  0 | Plaintext: FCJJM UMPJB
+Key:  6 | Score:  0 | Plaintext: EBIIL TLOIA
+Key:  7 | Score:  0 | Plaintext: DAHHK SKNHZ
+Key:  8 | Score:  0 | Plaintext: CZGGJ RJMGY
+Key:  9 | Score:  0 | Plaintext: BYFFI QILFX
+Key: 10 | Score:  0 | Plaintext: AXEEH PHKEW
+Key: 11 | Score:  0 | Plaintext: ZWDDG OGJDV
+Key: 12 | Score:  0 | Plaintext: YVCCF NFICU
+Key: 13 | Score:  0 | Plaintext: XUBBE MEHBT
+Key: 14 | Score:  0 | Plaintext: WTAAD LDGAS
+Key: 15 | Score:  0 | Plaintext: VSZZC KCFZR
+Key: 16 | Score:  0 | Plaintext: URYYB JBEYQ
+Key: 17 | Score:  0 | Plaintext: TQXXA IADXP
+Key: 18 | Score:  0 | Plaintext: SPWWZ HZCWO
+Key: 19 | Score:  0 | Plaintext: ROVVY GYBVN
+Key: 20 | Score:  0 | Plaintext: QNUUX FXAUM
+Key: 21 | Score:  0 | Plaintext: PMTTW EWZTL
+Key: 22 | Score:  0 | Plaintext: OLSSV DVYSK
+Key: 23 | Score:  0 | Plaintext: NKRRU CUXRJ
+Key: 24 | Score:  0 | Plaintext: MJQQT BTWQI
+Key: 25 | Score:  0 | Plaintext: LIPPS ASVPH
+Key:  0 | Chi-Square:     166.99 | Plaintext: KHOOR ZRUOG
+Key:  1 | Chi-Square:     505.37 | Plaintext: JGNNQ YQTNF
+Key:  2 | Chi-Square:     123.10 | Plaintext: IFMMP XPSME
+Key:  3 | Chi-Square:      28.38 | Plaintext: HELLO WORLD
+Key:  4 | Chi-Square:     238.90 | Plaintext: GDKKN VNQKC
+Key:  5 | Chi-Square:     618.46 | Plaintext: FCJJM UMPJB
+Key:  6 | Chi-Square:      24.01 | Plaintext: EBIIL TLOIA
+Key:  7 | Chi-Square:     198.36 | Plaintext: DAHHK SKNHZ
+Key:  8 | Chi-Square:     445.72 | Plaintext: CZGGJ RJMGY
+Key:  9 | Chi-Square:     222.32 | Plaintext: BYFFI QILFX
+Key: 10 | Chi-Square:      93.92 | Plaintext: AXEEH PHKEW
+Key: 11 | Chi-Square:     247.30 | Plaintext: ZWDDG OGJDV
+Key: 12 | Chi-Square:      62.14 | Plaintext: YVCCF NFICU
+Key: 13 | Chi-Square:     130.66 | Plaintext: XUBBE MEHBT
+Key: 14 | Chi-Square:      24.79 | Plaintext: WTAAD LDGAS
+Key: 15 | Chi-Square:    1251.51 | Plaintext: VSZZC KCFZR
+Key: 16 | Chi-Square:     239.11 | Plaintext: URYYB JBEYQ
+Key: 17 | Chi-Square:     710.24 | Plaintext: TQXXA IADXP
+Key: 18 | Chi-Square:     582.01 | Plaintext: SPWWZ HZCWO
+Key: 19 | Chi-Square:     118.44 | Plaintext: ROVVY GYBVN
+Key: 20 | Chi-Square:     405.91 | Plaintext: QNUUX FXAUM
+Key: 21 | Chi-Square:     164.63 | Plaintext: PMTTW EWZTL
+Key: 22 | Chi-Square:      69.31 | Plaintext: OLSSV DVYSK
+Key: 23 | Chi-Square:     169.59 | Plaintext: NKRRU CUXRJ
+Key: 24 | Chi-Square:    1023.68 | Plaintext: MJQQT BTWQI
+Key: 25 | Chi-Square:      59.99 | Plaintext: LIPPS ASVPH
+
+----------------------------------------------------------------------
+FINAL COMPARISON
+----------------------------------------------------------------------
+Actual Key       : 3
+Dictionary Key   : 3 (Correct)
+Chi-Square Key   : 6 (Wrong)
+Dictionary Score  : 2
+Chi-Square Score  : 24.01
+
+======================================================================
+TEST CASE 2
+======================================================================
+Actual Key : 7
+Plaintext  : THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG
+Ciphertext : AOL XBPJR IYVDU MVE QBTWZ VCLY AOL SHGF KVN
+Key:  0 | Score:  0 | Plaintext: AOL XBPJR IYVDU MVE QBTWZ VCLY AOL SHGF KVN
+Key:  1 | Score:  0 | Plaintext: ZNK WAOIQ HXUCT LUD PASVY UBKX ZNK RGFE JUM
+Key:  2 | Score:  0 | Plaintext: YMJ VZNHP GWTBS KTC OZRUX TAJW YMJ QFED ITL
+Key:  3 | Score:  0 | Plaintext: XLI UYMGO FVSAR JSB NYQTW SZIV XLI PEDC HSK
+Key:  4 | Score:  0 | Plaintext: WKH TXLFN EURZQ IRA MXPSV RYHU WKH ODCB GRJ
+Key:  5 | Score:  0 | Plaintext: VJG SWKEM DTQYP HQZ LWORU QXGT VJG NCBA FQI
+Key:  6 | Score:  0 | Plaintext: UIF RVJDL CSPXO GPY KVNQT PWFS UIF MBAZ EPH
+Key:  7 | Score:  3 | Plaintext: THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG
+Key:  8 | Score:  0 | Plaintext: SGD PTHBJ AQNVM ENW ITLOR NUDQ SGD KZYX CNF
+Key:  9 | Score:  0 | Plaintext: RFC OSGAI ZPMUL DMV HSKNQ MTCP RFC JYXW BME
+Key: 10 | Score:  0 | Plaintext: QEB NRFZH YOLTK CLU GRJMP LSBO QEB IXWV ALD
+Key: 11 | Score:  0 | Plaintext: PDA MQEYG XNKSJ BKT FQILO KRAN PDA HWVU ZKC
+Key: 12 | Score:  0 | Plaintext: OCZ LPDXF WMJRI AJS EPHKN JQZM OCZ GVUT YJB
+Key: 13 | Score:  0 | Plaintext: NBY KOCWE VLIQH ZIR DOGJM IPYL NBY FUTS XIA
+Key: 14 | Score:  0 | Plaintext: MAX JNBVD UKHPG YHQ CNFIL HOXK MAX ETSR WHZ
+Key: 15 | Score:  0 | Plaintext: LZW IMAUC TJGOF XGP BMEHK GNWJ LZW DSRQ VGY
+Key: 16 | Score:  0 | Plaintext: KYV HLZTB SIFNE WFO ALDGJ FMVI KYV CRQP UFX
+Key: 17 | Score:  0 | Plaintext: JXU GKYSA RHEMD VEN ZKCFI ELUH JXU BQPO TEW
+Key: 18 | Score:  0 | Plaintext: IWT FJXRZ QGDLC UDM YJBEH DKTG IWT APON SDV
+Key: 19 | Score:  0 | Plaintext: HVS EIWQY PFCKB TCL XIADG CJSF HVS ZONM RCU
+Key: 20 | Score:  0 | Plaintext: GUR DHVPX OEBJA SBK WHZCF BIRE GUR YNML QBT
+Key: 21 | Score:  0 | Plaintext: FTQ CGUOW NDAIZ RAJ VGYBE AHQD FTQ XMLK PAS
+Key: 22 | Score:  0 | Plaintext: ESP BFTNV MCZHY QZI UFXAD ZGPC ESP WLKJ OZR
+Key: 23 | Score:  0 | Plaintext: DRO AESMU LBYGX PYH TEWZC YFOB DRO VKJI NYQ
+Key: 24 | Score:  0 | Plaintext: CQN ZDRLT KAXFW OXG SDVYB XENA CQN UJIH MXP
+Key: 25 | Score:  0 | Plaintext: BPM YCQKS JZWEV NWF RCUXA WDMZ BPM TIHG LWO
+Key:  0 | Chi-Square:     156.70 | Plaintext: AOL XBPJR IYVDU MVE QBTWZ VCLY AOL SHGF KVN
+Key:  1 | Chi-Square:     315.36 | Plaintext: ZNK WAOIQ HXUCT LUD PASVY UBKX ZNK RGFE JUM
+Key:  2 | Chi-Square:     376.41 | Plaintext: YMJ VZNHP GWTBS KTC OZRUX TAJW YMJ QFED ITL
+Key:  3 | Chi-Square:     177.35 | Plaintext: XLI UYMGO FVSAR JSB NYQTW SZIV XLI PEDC HSK
+Key:  4 | Chi-Square:     180.81 | Plaintext: WKH TXLFN EURZQ IRA MXPSV RYHU WKH ODCB GRJ
+Key:  5 | Chi-Square:     626.75 | Plaintext: VJG SWKEM DTQYP HQZ LWORU QXGT VJG NCBA FQI
+Key:  6 | Chi-Square:     141.85 | Plaintext: UIF RVJDL CSPXO GPY KVNQT PWFS UIF MBAZ EPH
+Key:  7 | Chi-Square:     109.32 | Plaintext: THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG
+Key:  8 | Chi-Square:     203.42 | Plaintext: SGD PTHBJ AQNVM ENW ITLOR NUDQ SGD KZYX CNF
+Key:  9 | Chi-Square:     132.02 | Plaintext: RFC OSGAI ZPMUL DMV HSKNQ MTCP RFC JYXW BME
+Key: 10 | Chi-Square:     214.36 | Plaintext: QEB NRFZH YOLTK CLU GRJMP LSBO QEB IXWV ALD
+Key: 11 | Chi-Square:     251.19 | Plaintext: PDA MQEYG XNKSJ BKT FQILO KRAN PDA HWVU ZKC
+Key: 12 | Chi-Square:     696.14 | Plaintext: OCZ LPDXF WMJRI AJS EPHKN JQZM OCZ GVUT YJB
+Key: 13 | Chi-Square:     122.94 | Plaintext: NBY KOCWE VLIQH ZIR DOGJM IPYL NBY FUTS XIA
+Key: 14 | Chi-Square:     271.32 | Plaintext: MAX JNBVD UKHPG YHQ CNFIL HOXK MAX ETSR WHZ
+Key: 15 | Chi-Square:     303.42 | Plaintext: LZW IMAUC TJGOF XGP BMEHK GNWJ LZW DSRQ VGY
+Key: 16 | Chi-Square:     156.33 | Plaintext: KYV HLZTB SIFNE WFO ALDGJ FMVI KYV CRQP UFX
+Key: 17 | Chi-Square:     232.25 | Plaintext: JXU GKYSA RHEMD VEN ZKCFI ELUH JXU BQPO TEW
+Key: 18 | Chi-Square:     172.66 | Plaintext: IWT FJXRZ QGDLC UDM YJBEH DKTG IWT APON SDV
+Key: 19 | Chi-Square:     129.18 | Plaintext: HVS EIWQY PFCKB TCL XIADG CJSF HVS ZONM RCU
+Key: 20 | Chi-Square:     136.90 | Plaintext: GUR DHVPX OEBJA SBK WHZCF BIRE GUR YNML QBT
+Key: 21 | Chi-Square:     351.83 | Plaintext: FTQ CGUOW NDAIZ RAJ VGYBE AHQD FTQ XMLK PAS
+Key: 22 | Chi-Square:     694.88 | Plaintext: ESP BFTNV MCZHY QZI UFXAD ZGPC ESP WLKJ OZR
+Key: 23 | Chi-Square:     129.54 | Plaintext: DRO AESMU LBYGX PYH TEWZC YFOB DRO VKJI NYQ
+Key: 24 | Chi-Square:     480.39 | Plaintext: CQN ZDRLT KAXFW OXG SDVYB XENA CQN UJIH MXP
+Key: 25 | Chi-Square:     251.68 | Plaintext: BPM YCQKS JZWEV NWF RCUXA WDMZ BPM TIHG LWO
+
+----------------------------------------------------------------------
+FINAL COMPARISON
+----------------------------------------------------------------------
+Actual Key       : 7
+Dictionary Key   : 7 (Correct)
+Chi-Square Key   : 7 (Correct)
+Dictionary Score  : 3
+Chi-Square Score  : 109.32
+
+======================================================================
+TEST CASE 3
+======================================================================
+Actual Key : 13
+Plaintext  : THIS IS A SHIFT CIPHER TEST
+Ciphertext : GUVF VF N FUVSG PVCURE GRFG
+Key:  0 | Score:  0 | Plaintext: GUVF VF N FUVSG PVCURE GRFG
+Key:  1 | Score:  0 | Plaintext: FTUE UE M ETURF OUBTQD FQEF
+Key:  2 | Score:  0 | Plaintext: ESTD TD L DSTQE NTASPC EPDE
+Key:  3 | Score:  0 | Plaintext: DRSC SC K CRSPD MSZROB DOCD
+Key:  4 | Score:  0 | Plaintext: CQRB RB J BQROC LRYQNA CNBC
+Key:  5 | Score:  1 | Plaintext: BPQA QA I APQNB KQXPMZ BMAB
+Key:  6 | Score:  0 | Plaintext: AOPZ PZ H ZOPMA JPWOLY ALZA
+Key:  7 | Score:  0 | Plaintext: ZNOY OY G YNOLZ IOVNKX ZKYZ
+Key:  8 | Score:  0 | Plaintext: YMNX NX F XMNKY HNUMJW YJXY
+Key:  9 | Score:  0 | Plaintext: XLMW MW E WLMJX GMTLIV XIWX
+Key: 10 | Score:  0 | Plaintext: WKLV LV D VKLIW FLSKHU WHVW
+Key: 11 | Score:  0 | Plaintext: VJKU KU C UJKHV EKRJGT VGUV
+Key: 12 | Score:  0 | Plaintext: UIJT JT B TIJGU DJQIFS UFTU
+Key: 13 | Score:  4 | Plaintext: THIS IS A SHIFT CIPHER TEST
+Key: 14 | Score:  0 | Plaintext: SGHR HR Z RGHES BHOGDQ SDRS
+Key: 15 | Score:  0 | Plaintext: RFGQ GQ Y QFGDR AGNFCP RCQR
+Key: 16 | Score:  0 | Plaintext: QEFP FP X PEFCQ ZFMEBO QBPQ
+Key: 17 | Score:  0 | Plaintext: PDEO EO W ODEBP YELDAN PAOP
+Key: 18 | Score:  0 | Plaintext: OCDN DN V NCDAO XDKCZM OZNO
+Key: 19 | Score:  0 | Plaintext: NBCM CM U MBCZN WCJBYL NYMN
+Key: 20 | Score:  0 | Plaintext: MABL BL T LABYM VBIAXK MXLM
+Key: 21 | Score:  0 | Plaintext: LZAK AK S KZAXL UAHZWJ LWKL
+Key: 22 | Score:  0 | Plaintext: KYZJ ZJ R JYZWK TZGYVI KVJK
+Key: 23 | Score:  0 | Plaintext: JXYI YI Q IXYVJ SYFXUH JUIJ
+Key: 24 | Score:  0 | Plaintext: IWXH XH P HWXUI RXEWTG ITHI
+Key: 25 | Score:  0 | Plaintext: HVWG WG O GVWTH QWDVSF HSGH
+Key:  0 | Chi-Square:     144.71 | Plaintext: GUVF VF N FUVSG PVCURE GRFG
+Key:  1 | Chi-Square:     246.01 | Plaintext: FTUE UE M ETURF OUBTQD FQEF
+Key:  2 | Chi-Square:      76.59 | Plaintext: ESTD TD L DSTQE NTASPC EPDE
+Key:  3 | Chi-Square:     116.60 | Plaintext: DRSC SC K CRSPD MSZROB DOCD
+Key:  4 | Chi-Square:     532.65 | Plaintext: CQRB RB J BQROC LRYQNA CNBC
+Key:  5 | Chi-Square:     928.91 | Plaintext: BPQA QA I APQNB KQXPMZ BMAB
+Key:  6 | Chi-Square:    1053.95 | Plaintext: AOPZ PZ H ZOPMA JPWOLY ALZA
+Key:  7 | Chi-Square:    1075.93 | Plaintext: ZNOY OY G YNOLZ IOVNKX ZKYZ
+Key:  8 | Chi-Square:     658.55 | Plaintext: YMNX NX F XMNKY HNUMJW YJXY
+Key:  9 | Chi-Square:     574.14 | Plaintext: XLMW MW E WLMJX GMTLIV XIWX
+Key: 10 | Chi-Square:     163.35 | Plaintext: WKLV LV D VKLIW FLSKHU WHVW
+Key: 11 | Chi-Square:     453.34 | Plaintext: VJKU KU C UJKHV EKRJGT VGUV
+Key: 12 | Chi-Square:     556.71 | Plaintext: UIJT JT B TIJGU DJQIFS UFTU
+Key: 13 | Chi-Square:      23.46 | Plaintext: THIS IS A SHIFT CIPHER TEST
+Key: 14 | Chi-Square:     151.44 | Plaintext: SGHR HR Z RGHES BHOGDQ SDRS
+Key: 15 | Chi-Square:     823.65 | Plaintext: RFGQ GQ Y QFGDR AGNFCP RCQR
+Key: 16 | Chi-Square:     925.16 | Plaintext: QEFP FP X PEFCQ ZFMEBO QBPQ
+Key: 17 | Chi-Square:      52.04 | Plaintext: PDEO EO W ODEBP YELDAN PAOP
+Key: 18 | Chi-Square:     319.25 | Plaintext: OCDN DN V NCDAO XDKCZM OZNO
+Key: 19 | Chi-Square:     177.61 | Plaintext: NBCM CM U MBCZN WCJBYL NYMN
+Key: 20 | Chi-Square:     215.25 | Plaintext: MABL BL T LABYM VBIAXK MXLM
+Key: 21 | Chi-Square:     722.83 | Plaintext: LZAK AK S KZAXL UAHZWJ LWKL
+Key: 22 | Chi-Square:    1575.76 | Plaintext: KYZJ ZJ R JYZWK TZGYVI KVJK
+Key: 23 | Chi-Square:     835.94 | Plaintext: JXYI YI Q IXYVJ SYFXUH JUIJ
+Key: 24 | Chi-Square:     511.94 | Plaintext: IWXH XH P HWXUI RXEWTG ITHI
+Key: 25 | Chi-Square:     153.61 | Plaintext: HVWG WG O GVWTH QWDVSF HSGH
+
+----------------------------------------------------------------------
+FINAL COMPARISON
+----------------------------------------------------------------------
+Actual Key       : 13
+Dictionary Key   : 13 (Correct)
+Chi-Square Key   : 13 (Correct)
+Dictionary Score  : 4
+Chi-Square Score  : 23.46
+
+======================================================================
+TEST CASE 4
+======================================================================
+Actual Key : 19
+Plaintext  : CRYPTOGRAPHY IS IMPORTANT FOR COMPUTER SECURITY
+Ciphertext : VKRIMHZKTIAR BL BFIHKMTGM YHK VHFINMXK LXVNKBMR
+Key:  0 | Score:  0 | Plaintext: VKRIMHZKTIAR BL BFIHKMTGM YHK VHFINMXK LXVNKBMR
+Key:  1 | Score:  0 | Plaintext: UJQHLGYJSHZQ AK AEHGJLSFL XGJ UGEHMLWJ KWUMJALQ
+Key:  2 | Score:  0 | Plaintext: TIPGKFXIRGYP ZJ ZDGFIKREK WFI TFDGLKVI JVTLIZKP
+Key:  3 | Score:  0 | Plaintext: SHOFJEWHQFXO YI YCFEHJQDJ VEH SECFKJUH IUSKHYJO
+Key:  4 | Score:  0 | Plaintext: RGNEIDVGPEWN XH XBEDGIPCI UDG RDBEJITG HTRJGXIN
+Key:  5 | Score:  0 | Plaintext: QFMDHCUFODVM WG WADCFHOBH TCF QCADIHSF GSQIFWHM
+Key:  6 | Score:  0 | Plaintext: PELCGBTENCUL VF VZCBEGNAG SBE PBZCHGRE FRPHEVGL
+Key:  7 | Score:  0 | Plaintext: ODKBFASDMBTK UE UYBADFMZF RAD OAYBGFQD EQOGDUFK
+Key:  8 | Score:  0 | Plaintext: NCJAEZRCLASJ TD TXAZCELYE QZC NZXAFEPC DPNFCTEJ
+Key:  9 | Score:  0 | Plaintext: MBIZDYQBKZRI SC SWZYBDKXD PYB MYWZEDOB COMEBSDI
+Key: 10 | Score:  0 | Plaintext: LAHYCXPAJYQH RB RVYXACJWC OXA LXVYDCNA BNLDARCH
+Key: 11 | Score:  0 | Plaintext: KZGXBWOZIXPG QA QUXWZBIVB NWZ KWUXCBMZ AMKCZQBG
+Key: 12 | Score:  0 | Plaintext: JYFWAVNYHWOF PZ PTWVYAHUA MVY JVTWBALY ZLJBYPAF
+Key: 13 | Score:  0 | Plaintext: IXEVZUMXGVNE OY OSVUXZGTZ LUX IUSVAZKX YKIAXOZE
+Key: 14 | Score:  0 | Plaintext: HWDUYTLWFUMD NX NRUTWYFSY KTW HTRUZYJW XJHZWNYD
+Key: 15 | Score:  0 | Plaintext: GVCTXSKVETLC MW MQTSVXERX JSV GSQTYXIV WIGYVMXC
+Key: 16 | Score:  0 | Plaintext: FUBSWRJUDSKB LV LPSRUWDQW IRU FRPSXWHU VHFXULWB
+Key: 17 | Score:  0 | Plaintext: ETARVQITCRJA KU KORQTVCPV HQT EQORWVGT UGEWTKVA
+Key: 18 | Score:  0 | Plaintext: DSZQUPHSBQIZ JT JNQPSUBOU GPS DPNQVUFS TFDVSJUZ
+Key: 19 | Score:  4 | Plaintext: CRYPTOGRAPHY IS IMPORTANT FOR COMPUTER SECURITY
+Key: 20 | Score:  0 | Plaintext: BQXOSNFQZOGX HR HLONQSZMS ENQ BNLOTSDQ RDBTQHSX
+Key: 21 | Score:  0 | Plaintext: APWNRMEPYNFW GQ GKNMPRYLR DMP AMKNSRCP QCASPGRW
+Key: 22 | Score:  0 | Plaintext: ZOVMQLDOXMEV FP FJMLOQXKQ CLO ZLJMRQBO PBZROFQV
+Key: 23 | Score:  0 | Plaintext: YNULPKCNWLDU EO EILKNPWJP BKN YKILQPAN OAYQNEPU
+Key: 24 | Score:  0 | Plaintext: XMTKOJBMVKCT DN DHKJMOVIO AJM XJHKPOZM NZXPMDOT
+Key: 25 | Score:  0 | Plaintext: WLSJNIALUJBS CM CGJILNUHN ZIL WIGJONYL MYWOLCNS
+Key:  0 | Chi-Square:     252.79 | Plaintext: VKRIMHZKTIAR BL BFIHKMTGM YHK VHFINMXK LXVNKBMR
+Key:  1 | Chi-Square:     867.03 | Plaintext: UJQHLGYJSHZQ AK AEHGJLSFL XGJ UGEHMLWJ KWUMJALQ
+Key:  2 | Chi-Square:     482.92 | Plaintext: TIPGKFXIRGYP ZJ ZDGFIKREK WFI TFDGLKVI JVTLIZKP
+Key:  3 | Chi-Square:     539.01 | Plaintext: SHOFJEWHQFXO YI YCFEHJQDJ VEH SECFKJUH IUSKHYJO
+Key:  4 | Chi-Square:     251.99 | Plaintext: RGNEIDVGPEWN XH XBEDGIPCI UDG RDBEJITG HTRJGXIN
+Key:  5 | Chi-Square:     287.63 | Plaintext: QFMDHCUFODVM WG WADCFHOBH TCF QCADIHSF GSQIFWHM
+Key:  6 | Chi-Square:     211.19 | Plaintext: PELCGBTENCUL VF VZCBEGNAG SBE PBZCHGRE FRPHEVGL
+Key:  7 | Chi-Square:     221.17 | Plaintext: ODKBFASDMBTK UE UYBADFMZF RAD OAYBGFQD EQOGDUFK
+Key:  8 | Chi-Square:     762.91 | Plaintext: NCJAEZRCLASJ TD TXAZCELYE QZC NZXAFEPC DPNFCTEJ
+Key:  9 | Chi-Square:     643.29 | Plaintext: MBIZDYQBKZRI SC SWZYBDKXD PYB MYWZEDOB COMEBSDI
+Key: 10 | Chi-Square:     385.22 | Plaintext: LAHYCXPAJYQH RB RVYXACJWC OXA LXVYDCNA BNLDARCH
+Key: 11 | Chi-Square:    1707.97 | Plaintext: KZGXBWOZIXPG QA QUXWZBIVB NWZ KWUXCBMZ AMKCZQBG
+Key: 12 | Chi-Square:     367.17 | Plaintext: JYFWAVNYHWOF PZ PTWVYAHUA MVY JVTWBALY ZLJBYPAF
+Key: 13 | Chi-Square:    1420.94 | Plaintext: IXEVZUMXGVNE OY OSVUXZGTZ LUX IUSVAZKX YKIAXOZE
+Key: 14 | Chi-Square:     319.57 | Plaintext: HWDUYTLWFUMD NX NRUTWYFSY KTW HTRUZYJW XJHZWNYD
+Key: 15 | Chi-Square:     610.80 | Plaintext: GVCTXSKVETLC MW MQTSVXERX JSV GSQTYXIV WIGYVMXC
+Key: 16 | Chi-Square:     182.01 | Plaintext: FUBSWRJUDSKB LV LPSRUWDQW IRU FRPSXWHU VHFXULWB
+Key: 17 | Chi-Square:     502.20 | Plaintext: ETARVQITCRJA KU KORQTVCPV HQT EQORWVGT UGEWTKVA
+Key: 18 | Chi-Square:     873.64 | Plaintext: DSZQUPHSBQIZ JT JNQPSUBOU GPS DPNQVUFS TFDVSJUZ
+Key: 19 | Chi-Square:      39.17 | Plaintext: CRYPTOGRAPHY IS IMPORTANT FOR COMPUTER SECURITY
+Key: 20 | Chi-Square:    1180.49 | Plaintext: BQXOSNFQZOGX HR HLONQSZMS ENQ BNLOTSDQ RDBTQHSX
+Key: 21 | Chi-Square:     180.94 | Plaintext: APWNRMEPYNFW GQ GKNMPRYLR DMP AMKNSRCP QCASPGRW
+Key: 22 | Chi-Square:    1085.72 | Plaintext: ZOVMQLDOXMEV FP FJMLOQXKQ CLO ZLJMRQBO PBZROFQV
+Key: 23 | Chi-Square:     207.34 | Plaintext: YNULPKCNWLDU EO EILKNPWJP BKN YKILQPAN OAYQNEPU
+Key: 24 | Chi-Square:     599.58 | Plaintext: XMTKOJBMVKCT DN DHKJMOVIO AJM XJHKPOZM NZXPMDOT
+Key: 25 | Chi-Square:     315.43 | Plaintext: WLSJNIALUJBS CM CGJILNUHN ZIL WIGJONYL MYWOLCNS
+
+----------------------------------------------------------------------
+FINAL COMPARISON
+----------------------------------------------------------------------
+Actual Key       : 19
+Dictionary Key   : 19 (Correct)
+Chi-Square Key   : 19 (Correct)
+Dictionary Score  : 4
+Chi-Square Score  : 39.17
+
+======================================================================
+TEST CASE 5
+======================================================================
+Actual Key : 5
+Plaintext  : THE STUDENT IS LEARNING COMPUTER SCIENCE
+Ciphertext : YMJ XYZIJSY NX QJFWSNSL HTRUZYJW XHNJSHJ
+Key:  0 | Score:  0 | Plaintext: YMJ XYZIJSY NX QJFWSNSL HTRUZYJW XHNJSHJ
+Key:  1 | Score:  0 | Plaintext: XLI WXYHIRX MW PIEVRMRK GSQTYXIV WGMIRGI
+Key:  2 | Score:  0 | Plaintext: WKH VWXGHQW LV OHDUQLQJ FRPSXWHU VFLHQFH
+Key:  3 | Score:  0 | Plaintext: VJG UVWFGPV KU NGCTPKPI EQORWVGT UEKGPEG
+Key:  4 | Score:  0 | Plaintext: UIF TUVEFOU JT MFBSOJOH DPNQVUFS TDJFODF
+Key:  5 | Score:  3 | Plaintext: THE STUDENT IS LEARNING COMPUTER SCIENCE
+Key:  6 | Score:  0 | Plaintext: SGD RSTCDMS HR KDZQMHMF BNLOTSDQ RBHDMBD
+Key:  7 | Score:  0 | Plaintext: RFC QRSBCLR GQ JCYPLGLE AMKNSRCP QAGCLAC
+Key:  8 | Score:  0 | Plaintext: QEB PQRABKQ FP IBXOKFKD ZLJMRQBO PZFBKZB
+Key:  9 | Score:  0 | Plaintext: PDA OPQZAJP EO HAWNJEJC YKILQPAN OYEAJYA
+Key: 10 | Score:  0 | Plaintext: OCZ NOPYZIO DN GZVMIDIB XJHKPOZM NXDZIXZ
+Key: 11 | Score:  0 | Plaintext: NBY MNOXYHN CM FYULHCHA WIGJONYL MWCYHWY
+Key: 12 | Score:  0 | Plaintext: MAX LMNWXGM BL EXTKGBGZ VHFINMXK LVBXGVX
+Key: 13 | Score:  0 | Plaintext: LZW KLMVWFL AK DWSJFAFY UGEHMLWJ KUAWFUW
+Key: 14 | Score:  0 | Plaintext: KYV JKLUVEK ZJ CVRIEZEX TFDGLKVI JTZVETV
+Key: 15 | Score:  0 | Plaintext: JXU IJKTUDJ YI BUQHDYDW SECFKJUH ISYUDSU
+Key: 16 | Score:  0 | Plaintext: IWT HIJSTCI XH ATPGCXCV RDBEJITG HRXTCRT
+Key: 17 | Score:  0 | Plaintext: HVS GHIRSBH WG ZSOFBWBU QCADIHSF GQWSBQS
+Key: 18 | Score:  0 | Plaintext: GUR FGHQRAG VF YRNEAVAT PBZCHGRE FPVRAPR
+Key: 19 | Score:  0 | Plaintext: FTQ EFGPQZF UE XQMDZUZS OAYBGFQD EOUQZOQ
+Key: 20 | Score:  0 | Plaintext: ESP DEFOPYE TD WPLCYTYR NZXAFEPC DNTPYNP
+Key: 21 | Score:  0 | Plaintext: DRO CDENOXD SC VOKBXSXQ MYWZEDOB CMSOXMO
+Key: 22 | Score:  0 | Plaintext: CQN BCDMNWC RB UNJAWRWP LXVYDCNA BLRNWLN
+Key: 23 | Score:  0 | Plaintext: BPM ABCLMVB QA TMIZVQVO KWUXCBMZ AKQMVKM
+Key: 24 | Score:  0 | Plaintext: AOL ZABKLUA PZ SLHYUPUN JVTWBALY ZJPLUJL
+Key: 25 | Score:  0 | Plaintext: ZNK YZAJKTZ OY RKGXTOTM IUSVAZKX YIOKTIK
+Key:  0 | Chi-Square:    1041.89 | Plaintext: YMJ XYZIJSY NX QJFWSNSL HTRUZYJW XHNJSHJ
+Key:  1 | Chi-Square:     381.41 | Plaintext: XLI WXYHIRX MW PIEVRMRK GSQTYXIV WGMIRGI
+Key:  2 | Chi-Square:     634.26 | Plaintext: WKH VWXGHQW LV OHDUQLQJ FRPSXWHU VFLHQFH
+Key:  3 | Chi-Square:     190.00 | Plaintext: VJG UVWFGPV KU NGCTPKPI EQORWVGT UEKGPEG
+Key:  4 | Chi-Square:     260.46 | Plaintext: UIF TUVEFOU JT MFBSOJOH DPNQVUFS TDJFODF
+Key:  5 | Chi-Square:      14.64 | Plaintext: THE STUDENT IS LEARNING COMPUTER SCIENCE
+Key:  6 | Chi-Square:     210.27 | Plaintext: SGD RSTCDMS HR KDZQMHMF BNLOTSDQ RBHDMBD
+Key:  7 | Chi-Square:     344.14 | Plaintext: RFC QRSBCLR GQ JCYPLGLE AMKNSRCP QAGCLAC
+Key:  8 | Chi-Square:     991.43 | Plaintext: QEB PQRABKQ FP IBXOKFKD ZLJMRQBO PZFBKZB
+Key:  9 | Chi-Square:     487.36 | Plaintext: PDA OPQZAJP EO HAWNJEJC YKILQPAN OYEAJYA
+Key: 10 | Chi-Square:    1591.15 | Plaintext: OCZ NOPYZIO DN GZVMIDIB XJHKPOZM NXDZIXZ
+Key: 11 | Chi-Square:     110.70 | Plaintext: NBY MNOXYHN CM FYULHCHA WIGJONYL MWCYHWY
+Key: 12 | Chi-Square:     801.69 | Plaintext: MAX LMNWXGM BL EXTKGBGZ VHFINMXK LVBXGVX
+Key: 13 | Chi-Square:     211.90 | Plaintext: LZW KLMVWFL AK DWSJFAFY UGEHMLWJ KUAWFUW
+Key: 14 | Chi-Square:     682.27 | Plaintext: KYV JKLUVEK ZJ CVRIEZEX TFDGLKVI JTZVETV
+Key: 15 | Chi-Square:     404.39 | Plaintext: JXU IJKTUDJ YI BUQHDYDW SECFKJUH ISYUDSU
+Key: 16 | Chi-Square:     268.89 | Plaintext: IWT HIJSTCI XH ATPGCXCV RDBEJITG HRXTCRT
+Key: 17 | Chi-Square:     365.98 | Plaintext: HVS GHIRSBH WG ZSOFBWBU QCADIHSF GQWSBQS
+Key: 18 | Chi-Square:     139.25 | Plaintext: GUR FGHQRAG VF YRNEAVAT PBZCHGRE FPVRAPR
+Key: 19 | Chi-Square:    1735.31 | Plaintext: FTQ EFGPQZF UE XQMDZUZS OAYBGFQD EOUQZOQ
+Key: 20 | Chi-Square:     128.25 | Plaintext: ESP DEFOPYE TD WPLCYTYR NZXAFEPC DNTPYNP
+Key: 21 | Chi-Square:     405.63 | Plaintext: DRO CDENOXD SC VOKBXSXQ MYWZEDOB CMSOXMO
+Key: 22 | Chi-Square:     123.92 | Plaintext: CQN BCDMNWC RB UNJAWRWP LXVYDCNA BLRNWLN
+Key: 23 | Chi-Square:     575.41 | Plaintext: BPM ABCLMVB QA TMIZVQVO KWUXCBMZ AKQMVKM
+Key: 24 | Chi-Square:     564.94 | Plaintext: AOL ZABKLUA PZ SLHYUPUN JVTWBALY ZJPLUJL
+Key: 25 | Chi-Square:     845.37 | Plaintext: ZNK YZAJKTZ OY RKGXTOTM IUSVAZKX YIOKTIK
+
+----------------------------------------------------------------------
+FINAL COMPARISON
+----------------------------------------------------------------------
+Actual Key       : 5
+Dictionary Key   : 5 (Correct)
+Chi-Square Key   : 5 (Correct)
+Dictionary Score  : 3
+Chi-Square Score  : 14.64
+
+
+
+==========================================================================================
+OVERALL RESULTS
+==========================================================================================
+Test    Actual    Dictionary     Chi-Square     Dict Correct   Chi Correct    
+------------------------------------------------------------------------------------------
+1       3         3              6              True           False          
+2       7         7              7              True           True           
+3       13        13             13             True           True           
+4       19        19             19             True           True           
+5       5         5              5              True           True           
