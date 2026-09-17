@@ -107,3 +107,30 @@ How to compile & run:
 2. Build and run Cryptanalysis Engine:
    `g++ -std=c++17 -Wall classical/monoalphabetic_cryptanalysis.cpp -o classical/monoalphabetic_cryptanalysis`
    `./classical/monoalphabetic_cryptanalysis`
+
+
+Vigenère Cipher Cryptanalysis (Kasiski & Frequency Analysis) - Group 9
+---------------------------------------------------------------------
+
+Overview:
+- Objective: Cryptanalysis of Vigenère Cipher using Kasiski Examination, Index of Coincidence, and Chi-squared frequency correlation.
+- Target Input: Ciphertext 1 (Odd Group No. 9).
+- Language: C++ (Standard C++17)
+
+Key Features & Required Functions:
+- `clean_ciphertext()`: Preprocesses ciphertext string.
+- `find_repeated_patterns()` & `calculate_distances()` & `find_factors()`: Kasiski examination.
+- `kasiski_analysis()` & `calculate_ic()`: Estimates key length (Length 14).
+- `split_into_groups()`, `frequency_analysis()`, `find_shift()`, `find_key()`: Recovers key `AMBROISETHOMAS`.
+- `vigenere_decrypt()`, `vigenere_encrypt()`, `verify()`: Decrypts and verifies 100% re-encryption match.
+
+Files:
+- `classical/vigenere_ciphertext.txt` - Input ciphertext.
+- `classical/vigenere_cryptanalysis.cpp` - C++ cryptanalysis engine.
+- `classical/vigenere_recovered_plaintext.txt` - Decrypted plaintext output.
+- `docs/vigenere_cryptanalysis_notebook.md` - Analysis notebook & distance factor tables.
+
+How to compile & run:
+1. Build and run Vigenère Cryptanalysis Engine:
+   `g++ -std=c++17 -Wall classical/vigenere_cryptanalysis.cpp -o classical/vigenere_cryptanalysis`
+   `./classical/vigenere_cryptanalysis`
