@@ -78,8 +78,32 @@ Remediation (next steps):
 - Re-run Bandit after fixes to confirm issues are resolved.
 
 
+Monoalphabetic Substitution Cipher & Cryptanalysis - Group 9
+-----------------------------------------------------------
 
+Overview:
+- Objective: Implement Monoalphabetic substitution cipher and perform cryptanalysis using letter frequency, word pattern, and structural analysis on text from Katz & Lindell "Introduction to Modern Cryptography" (Page 39).
+- Language: C++ (Standard C++17)
+- Group: 9 (Page 9 + 30 = 39)
 
+Files:
+- `classical/plaintext.txt` - Katz & Lindell Page 39 text (> 1 page, 428 words).
+- `classical/monoalphabetic_cipher.cpp` - C++ Cipher Engine (Encryption, Decryption, Key generation).
+- `classical/ciphertext.txt` - Encrypted ciphertext.
+- `classical/monoalphabetic_cryptanalysis.cpp` - C++ Cryptanalysis module containing required functions:
+  1. `frequency_analysis()`
+  2. `word_frequency_analysis()`
+  3. `pattern_analysis()`
+  4. `apply_substitution()`
+  5. `display_partial_plaintext()`
+- `classical/recovered_plaintext.txt` - Decrypted plaintext after cryptanalysis.
+- `docs/cryptanalysis_notebook.md` - Cryptanalytic decision log table & key recovery verification report.
 
+How to compile & run:
+1. Build and run Monoalphabetic Cipher Engine:
+   `g++ -std=c++17 -Wall classical/monoalphabetic_cipher.cpp -o classical/monoalphabetic_cipher`
+   `./classical/monoalphabetic_cipher`
 
-
+2. Build and run Cryptanalysis Engine:
+   `g++ -std=c++17 -Wall classical/monoalphabetic_cryptanalysis.cpp -o classical/monoalphabetic_cryptanalysis`
+   `./classical/monoalphabetic_cryptanalysis`
