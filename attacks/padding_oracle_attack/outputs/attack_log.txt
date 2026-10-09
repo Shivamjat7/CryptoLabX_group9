@@ -1,0 +1,34 @@
+=================================================================
+AES-CBC PADDING ORACLE ATTACK - CRYPTOLABX GROUP 9
+=================================================================
+
+Ciphertext (hex):
+0fa6c90de6cddc0050767a0135db21f9eccd3a199051130fdfdeed91729577f7120c0cd8ea85ea277f7ee365c366380ea3d10141a70ed5cdc800ee33c652fff04fa201c684ecb982a45396698b54bae84c34497412fa843ae62cd58d5bc218ca
+
+IV (hex):
+3eb8f85204ccbcc666aa300d6945fb44
+
+Message length: 84 bytes
+Ciphertext length: 96 bytes (6 blocks)
+
+Recovering plaintext byte-by-byte from right to left...
+
+Recovered block 1: b'Padding oracle a' (Queries: 1983)
+Recovered block 2: b'ttacks demonstra' (Queries: 1961)
+Recovered block 3: b'te why CBC paddi' (Queries: 2019)
+Recovered block 4: b'ng errors must n' (Queries: 1640)
+Recovered block 5: b'ot leak informat' (Queries: 2230)
+Recovered block 6: b'ion.\x0c\x0c\x0c\x0c\x0c\x0c\x0c\x0c\x0c\x0c\x0c\x0c' (Queries: 2415)
+
+=================================================================
+ATTACK RESULTS
+=================================================================
+
+Recovered plaintext:
+Padding oracle attacks demonstrate why CBC padding errors must not leak information.
+
+Total oracle queries:
+12248
+
+Verification:
+SUCCESS: Recovered plaintext perfectly matches original message!
