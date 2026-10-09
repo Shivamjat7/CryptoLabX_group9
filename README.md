@@ -134,3 +134,26 @@ How to compile & run:
 1. Build and run Vigenère Cryptanalysis Engine:
    `g++ -std=c++17 -Wall classical/vigenere_cryptanalysis.cpp -o classical/vigenere_cryptanalysis`
    `./classical/vigenere_cryptanalysis`
+
+
+AES-CBC Padding Oracle Attack - Group 9
+----------------------------------------
+
+Overview:
+- Objective: Demonstrate plaintext recovery from AES-CBC encrypted messages using a PKCS#7 padding oracle without knowledge of the secret encryption key (Vaudenay's Attack).
+- Language: Python 3
+- Key Constraint: Key is never accessed or exposed to the attack module.
+
+Key Functions:
+- `pkcs7_pad()` & `pkcs7_unpad()`: Standard PKCS#7 padding operations.
+- `create_padding_oracle()`: Side-channel oracle returning boolean padding status.
+- `recover_block()`: Recovers single 16-byte plaintext block from right-to-left using modified previous ciphertext block.
+- `padding_oracle_attack()`: Full ciphertext recovery across arbitrary block count.
+
+Files:
+- `attacks/padding_oracle_attack/src/padding_oracle_attack.py` - Main attack implementation script.
+- `attacks/padding_oracle_attack/outputs/attack_log.txt` - Execution log output.
+- `attacks/padding_oracle_attack/reports/padding_oracle_analysis.md` & `docs/padding_oracle_notebook.md` - Technical report & analysis notebook.
+
+How to run:
+`py -3 attacks/padding_oracle_attack/src/padding_oracle_attack.py`
